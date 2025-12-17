@@ -13,8 +13,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 path = (
-    "/Users/axel/Desktop/Cours 25:26/data camp/"
-    "TP2 pandas/2025-assignment-pandas/data/"
+    "/data/"
 )
 
 
