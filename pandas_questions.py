@@ -20,7 +20,7 @@ path = (
 def load_data():
     """Load data from the CSV files referundum/regions/departments."""
     referendum = pd.read_csv(path + "referendum.csv", sep=";")
-    regions = pd.read_csv(path +  "regions.csv")
+    regions = pd.read_csv(path + "regions.csv")
     departments = pd.read_csv(path + "departments.csv")
 
     return referendum, regions, departments
